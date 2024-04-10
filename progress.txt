@@ -1,0 +1,31 @@
+
+
+
+
+
+
+1. Meta-data code ready using Pytube                            (Done ✅)
+2. Youtube transcript extraction using api                      (Done ✅)
+5. Whisper local video learning                                 (Done ✅)
+
+
+
+
+3. Transcript search Timestamp return links & display           (Done ✅)
+4. Rag for LLava endpoint Answering with context                (Done ✅)
+6. Extract summary, tags, topics using LLava endpoint           (Done ✅)
+7. Multimodal Question Answering and Tutoring Based on the RAG  (Done ✅)
+
+
+
+
+
+
+
+
+
+
+
+
+8. Interactive Video-Based Assessments                          (Done ❌)
+9. UI Fronted using Streamlit                                   (Done ❌)

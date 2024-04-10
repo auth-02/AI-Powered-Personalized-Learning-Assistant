@@ -1,0 +1,51 @@
+00:2.44 <= : hi everyone so we are we are here to present the pp for the logon so without any further Ado let's start with the presentation so the problem statement a : => 00:16.12
+00:16.12 <= : problem statement is a self-learning a power PDF to data converter uh our team name is team conference the members of our team are M : => 00:25.68
+00:25.68 <= : myself ban and PR we are from vishak Institute of Technology Pune so the idea approach and details so a solution a proposed solution utilizes : => 00:38.84
+00:38.84 <= : a fine-tune multimodel that is lava which is capable of vision capabilities so it accepts uh image and text as a input and machine learning to extract : => 00:50.92
+00:50.92 <= : data from complex documents so these documents can be financial documents uh Supply Chain management reports or Healthcare reports any form of : => 01:1.24
+01:1.24 <= : structured PDF or any form of PDF document so our solution leverages generative a AI uh techniques to understand layouts and content it : => 01:12.84
+01:12.84 <= : further cleans and pre-process the PDF data then converts them into structured format like Json and data frames so upon converting into structured format will : => 01:24.64
+01:24.64 <= : be generating query based insights so user will input some queries regarding the extracted data and he will get the specified answer accordingly from the : => 01:37.40
+01:37.40 <= : data itself and we are also uh empowering up solution with promp based visualization so user can asks the questions or U insights about data in uh : => 01:50.28
+01:50.28 <= : and get output in form of visualizations in form of line chart bar graph or pie chart all other visualizations as well a feedback look will allow user : => 02:1.00
+02:1.00 <= : corrections to improve system accuracy over time so this is the component which is used for self learning so we'll be fine-tuning the model uh on after a : => 02:12.76
+02:12.76 <= : particular uh span of time as we so the key components of this solution includes multimodel LM for intelligent data extraction uh the next key component : => 02:24.64
+02:24.64 <= : that is uh that proves inefficient that proves efficient for the accuracy to upgrade over the time is feedback clue for continuous learning so to : => 02:35.76
+02:35.76 <= : incorporate continuous learning uh we have a pipeline which will uh fine tune or retrain the lava llm to generate or adapt with the new amount data that user : => 02:49.96
+02:49.96 <= : is uh working the solution upon next key component is structured data output for seamless in integration moving further we are will : => 03:2.04
+03:2.04 <= : be storing this data and give potential insights uh using the data expected so let's move uh with the system flowcharts so in the system flow : => 03:16.24
+03:16.24 <= : charts uh using the UI of our solution uh user will upload the PDF document that he wants to extract data about and then the document is pre-processed and : => 03:28.36
+03:28.36 <= : clean so converting into like a PDF it's a PDF converting into images doing some pre-processing and this images will be sent as an input to our fine tune : => 03:41.40
+03:41.40 <= : multimodel lava that is Vision uh language model so this fine tune visual language model is uh is trained on images of the uh invoices : => 03:55.16
+03:55.16 <= : then HR reports or any of the data needs to be extracted upon and with its subsequent counterpart of the extracted form it should give or structured form : => 04:7.92
+04:7.92 <= : of the data it should give the output in so this images goes into the multi multimodel uh fine tune multimodel so this the image or the PDF may have data : => 04:23.28
+04:23.28 <= : from text tables and figures so we have separate pipelines to extract data from them so rather be it insides from the figure : => 04:32.96
+04:32.96 <= : tables and the textual form so this will be combine to generate structured data in Json format using pre-processing uh different : => 04:43.68
+04:43.68 <= : pre-processing techniques and data frame so we are storing it into form of data frame as well to give insights about uh so about the data as well so next step : => 04:55.40
+04:55.40 <= : is generating insights so with insights there are two options query base inside from the data user can ask questions about data like what is the data you are : => 05:6.36
+05:6.36 <= : extracted about give summary of the data kind of uh things you normally ask a chat bot about or chat interface like chat chat GT like next is prompt based : => 05:17.48
+05:17.48 <= : visualization about the data to generate Dynamic visualizations that represents what is the data about and after this uh user will be uh asked for a user : => 05:30.08
+05:30.08 <= : feedback so if the user gives a feedback upon improving like the model performing wrong in this this use case then uh will be uh if it gives the feedback we'll use : => 05:41.96
+05:41.96 <= : the feedback and the data to improve the our uh machine learning models uh lava model and if it does not give the feedback then we'll uh move with the : => 05:53.24
+05:53.24 <= : further uh process without giving any flagging about the wrong things that model might be gone bias about and after going through : => 06:4.24
+06:4.24 <= : this feedback mechanism we are storing the data uh used to uh for further reference so this is the overall flowchart or architectural diagram of a : => 06:15.04
+06:15.04 <= : propose system so let's move with the use cases that it has to CER or serve about so first is Finance and Accounting : => 06:25.36
+06:25.36 <= : so in finance it is invoice processing automat IC Ally extract vendor info and item details that might be in the invoices uh to get prices for a stream : => 06:37.80
+06:37.80 <= : Lan uh accounts and payables second is financial report analysis so convert financial statements into structured data for further analy and forecasting : => 06:47.12
+06:47.12 <= : upon the data so it can be a part of a big pipeline as data collection for these different use cases next is Supply Chain management so : => 06:57.20
+06:57.20 <= : purchase order automations can be done conver supplier orders uh into digital format for inventory management shipping the do shipping documentation so here : => 07:8.32
+07:8.32 <= : the use cases like extract relevant info from bills uh in order to track shipments effectively and efficiently third use case that we provide uh is : => 07:19.72
+07:19.72 <= : legal and compilance so in that passes contract to extract terms from the uh privacy policy or uh cont contract aing compilance and risk : => 07:31.84
+07:31.84 <= : management so it can be looked upon as well converts regulatory dogs uh for adherance to Import and Export rules we can get information that also in the : => 07:44.56
+07:44.56 <= : structured format the next use case is human resource so using in resume passing uh extract content contact details education work and his work : => 07:55.76
+07:55.76 <= : profile so for candidate sking can be achieved using our system as well so employee data management so convert HR forms for easier storage and Analysis : => 08:6.32
+08:6.32 <= : can be done as well so let's go a look around what the Technologies we are planning to use for the same so to create the front end UI part we are uh : => 08:18.04
+08:18.04 <= : using stream lit so it will provide us a easy interface and scalable as scalable as well user friendly approach for the user so we'll be using PDF minor so : => 08:29.64
+08:29.64 <= : converting PDF into images and processing upon them it is used for that use case so to integrate generative AI functionalities like summarizing giving : => 08:39.72
+08:39.72 <= : insights about the data so will be incorporating latest State Technology Lang chain as well we'll be fine tuning multimodel lava that is Vision language : => 08:50.72
+08:50.72 <= : model upon uh the data which it can uh accept that we want to generate structured data so it will be fine tune on that data uh : => 09:5.24
+09:5.24 <= : next is Panda so it will be used to give query based insight and also prom based visualization so we'll use Panda for that for the technology for this whole : => 09:15.60
+09:15.60 <= : back end will be powered by Python and the most important self learning or human feedback learning so we we are in incorporating fine-tuning this model : => 09:25.40
+09:25.40 <= : again on the data collected from the human feedback and this will will be done over a span of over a time so after 20 to 30 days uh the the uh the fine : => 09:37.96
+09:37.96 <= : tuning will will do the fine tuning again and the model will be familiar with the current trends and the documents it should parse or uh provide : => 09:46.80
+09:46.80 <= : structure data about so this was our presentation a proposed solution for the logon thank you : => 09:46.80
