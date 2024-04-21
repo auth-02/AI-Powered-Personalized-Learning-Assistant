@@ -1,4 +1,4 @@
-# Learner's Video Analyzer
+# Learner's Video Analyzer  - AI-Powered Personalized Learning Assistant
 
 ### Turning Video Chaos into Organized Learning
 
@@ -49,5 +49,13 @@ Learner's Video Analyzer tackles this problem by providing a one-stop shop for e
 9. **Interactive Video-Based Assessments** *(Inprogress)*
    
 
+
+Title: AI-Powered Personalized Learning Assistant
+Problem Statement:
+Develop an AI assistant that personalizes learning content and schedules based on the individual’s learning pace, style, and retention rate to maximize educational outcomes.
+Insight into the problem:
+Leveraging AI to customize learning experiences can address the diverse needs of students, helping them to learn more effectively and efficiently by adapting to their unique learning behaviors.
+Why this is a critical or an interesting problem to solve:
+Education is fundamental to societal development, and enhancing educational tools with AI can lead to more effective learning and accessibility, potentially transforming the educational landscape.
 
 ---
